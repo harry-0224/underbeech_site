@@ -77,7 +77,7 @@
   updateButtons();
 
   // The static two-card markup remains usable if JSON cannot be loaded.
-  fetch('works/cases.json?v=50')
+  fetch('works/cases.json?v=44')
     .then(response => {
       if (!response.ok) throw new Error('List unavailable');
       return response.json();
